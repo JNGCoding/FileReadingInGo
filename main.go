@@ -23,7 +23,7 @@ func main() {
 		log.Fatal("Unable to Open.")
 	}
 
-	// defer keyword runs a line of code right before exiting the code.
+	// defer keyword runs a line of code right before exiting the program.
 	// It follows the execution flow of First-In ---> Last-Out
 	defer ReadFile.Close()
 
